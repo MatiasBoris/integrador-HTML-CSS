@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="/form/iniciarsesion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="contenedor__tarjeta">
+        <ul class="tarjeta">
+            <h1>Bienvenido</h1>
+            <li class="usuario"><img src="/form/usuario2.png" alt="" class="img__usuario"></li>
+            <li>
+                <ul class="email">
+                    <li><img src="/form/email.svg" alt="" class="icono"></li>
+                    <li><input type="email" placeholder="Correo Electrónico" required></li>
+                </ul>
+            </li>
+            <li>
+                <ul class="contraseña">
+                    <li><img src="/form/contraseña.svg" alt="" class="icono"></li>
+                    <li><input type="password" placeholder="Constraseña" required></li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <ul class="recordar">
+                            <li><input type="checkbox" id="checkbox"></li>
+                            <li><label for="checkbox">Recordarme</label></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">¿Olvidaste tu contraseña?</a></li>
+                </ul>
+            </li>
+            <li class="enviar"><input type="submit" value="Iniciar sesión" class="enviar__boton"></li>
+            <li class="link__registrarse">¿No tienes una cuenta? <a href="/form/registrarse.html">Regístrate</a></li>
+        </ul>
+    </form>
+</body>
+</html>

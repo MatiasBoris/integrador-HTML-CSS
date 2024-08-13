@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+.contenedor__tarjeta{
+    background-image: url(/form/fondo2.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.tarjeta{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 5px;
+    gap: 10px;
+}
+.tarjeta h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+.usuario{
+    border-radius: 45%;
+}
+.img__usuario{
+    width: 120px;
+    height: 120px;
+    background-color: wheat;
+    border-radius: 45%;
+    border: 1px solid black;
+}
+.icono{
+    width: 15px;
+    height: 15px;
+}
+.email,.contraseña{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.link__registrarse a, li a{
+    color: black;
+}
+.enviar{
+    width: 60%;
+}
+.enviar__boton{
+    background-color: black;
+    color: yellow;
+    padding: 5px;
+    width: 100%;
+}
+input{
+    border: 1px solid black;
+    padding: 5px;
+    width: 200px;
+}
+#checkbox{
+    width: 20px;
+}
+.recordar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (min-width: 576px){
+    .tarjeta{
+        width: 60%;
+        max-width: 600px;
+    }
+    .enviar{
+        max-width: 300px;
+    }
+    
+}

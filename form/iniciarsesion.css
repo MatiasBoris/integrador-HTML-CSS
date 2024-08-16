@@ -52,6 +52,9 @@
     align-items: center;
     gap: 8px;
 }
+.link__registrarse{
+    padding: 10px;
+}
 .link__registrarse a, li a{
     color: black;
 }
@@ -82,10 +85,9 @@ input{
 @media (min-width: 576px){
     .tarjeta{
         width: 60%;
-        max-width: 600px;
+        max-width: 390px;
     }
     .enviar{
         max-width: 300px;
     }
-    
 }

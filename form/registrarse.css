@@ -85,4 +85,7 @@ h2{
     .input__largo, .submit{
         width: 200px;
     }
+    .iniciarsesion{
+        font-size: 14px;
+    }
 }

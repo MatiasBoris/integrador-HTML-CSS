@@ -22,8 +22,11 @@ body{
     gap: 10px;
 }
 .img__navbar{
-    width: 40px;
-    height: 30px;
+    width: 55px;
+    height: 35px;
+}
+.buscador__navbar{
+    height: 25px;
 }
 .icono__menu, .icono__carrito{
     width: 20px;
@@ -222,6 +225,7 @@ main{
 .contenedor__pie h3{
     padding-bottom: 15px;
 }
+
 .redes{
     display: flex;
     justify-content: center;
@@ -244,11 +248,6 @@ main{
 .reclamos a{
     color: yellow;
 }
-
-
-
-
-
 @media (max-width: 550px){
     .link__menu li{
         display: none;
@@ -271,6 +270,9 @@ main{
         right: 0;
         gap: 5px;
         margin: 5px;
+    }
+    .contenedor__redes{
+        padding-bottom: 18px;
     }
 }
 @media (min-width: 551px){
@@ -310,6 +312,9 @@ main{
     .reclamos{
         font-size: 10px;
     }
+    .contenedor__redes{
+        padding-bottom: 28px;
+    }
 }
 @media (min-width: 800px){
     .link__menu{
@@ -318,9 +323,12 @@ main{
     .buscador__navbar{
         width: 300px;
     }
+    .slogan{
+        font-size: 25px;
+    }
     .contenedor__pie li ul{
         width: 250px;
-        font-size: 10px;
+        font-size: 15px;
     }
     .reclamos{
         font-size: 12px;
@@ -336,6 +344,9 @@ main{
     }
     .opciones li a{
         font-size: 20px;
+    }
+    .contenedor__redes{
+        padding-bottom: 45px;
     }
 }
 @media (min-width: 980px){
@@ -356,5 +367,8 @@ main{
     }
     .opciones li a{
         font-size: 20px;
+    }
+    .contenedor__redes{
+        padding-bottom: 48px;
     }
 }

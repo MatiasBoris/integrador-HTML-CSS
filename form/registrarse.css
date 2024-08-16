@@ -24,17 +24,45 @@
     padding: 10px;
     gap: 10px;
     width: 80%;
+    max-width: 400px;
+}
+.contenedor__info{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
 }
 h1{
     font-family: "Permanent Marker", cursive;
-    text-align: center;
 }
-.nombres, .direccion, .contraseña{
+.opciones__direccion{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 2px;
+    align-items: start;
+    flex-direction: column;
+}
+.direccion__numero{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 5px;
+}
+.input__corto{
+    width: 50px;
+    height: 30px;
+}
+.input__largo,.submit{
+    width: 300px;
+    height: 30px;
+}
+.submit{
+    background-color: black;
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 10px;
 }
 .checkbox{
     display: flex;
@@ -42,45 +70,19 @@ h1{
     align-items: center;
     flex-direction: row;
     gap: 5px;
+    font-size: 12px;
 }
-.checkbox a,.iniciarsesion a{
-    color: black;
+h2{
+    font-size: 15px;
 }
-.submit input{
-    background-color: black;
-    color: yellow;
-    padding: 5px;
-}
-.submit{
-    width: 60%;
-}
-.submit input{
-    background-color: black;
-    color: yellow;
-    padding: 5px;
-    width: 100%;
-}
-input{
-    border: 1px solid black;
-    padding: 3px;
-}
-@media (min-width: 576px){
-    .tarjeta{
-        max-width: 700px;
+
+@media (max-width: 409px){
+    .input__largo{
+        width: 250px;
     }
-    .nombres,.contraseña{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
-    .direccion{
-        gap: 10px;
-    }
-    input{
-        height: 25px;
-        border: 1px solid black;
-    }
-    .submit{
-        max-width: 400px;
+}
+@media (max-width: 340px){
+    .input__largo{
+        width: 200px;
     }
 }

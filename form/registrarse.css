@@ -72,8 +72,14 @@ h1{
     gap: 5px;
     font-size: 12px;
 }
+.checkbox a{
+    color: black;
+}
 h2{
     font-size: 15px;
+}
+.iniciarsesion a{
+    color: black;
 }
 
 @media (max-width: 409px){
@@ -86,6 +92,6 @@ h2{
         width: 200px;
     }
     .iniciarsesion{
-        font-size: 14px;
+        font-size: 10px;
     }
 }

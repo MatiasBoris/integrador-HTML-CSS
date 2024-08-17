@@ -86,12 +86,12 @@ h2{
     .input__largo, .submit{
         width: 250px;
     }
+    .iniciarsesion{
+        font-size: 10px;
+    }
 }
 @media (max-width: 340px){
     .input__largo, .submit{
         width: 200px;
-    }
-    .iniciarsesion{
-        font-size: 10px;
     }
 }

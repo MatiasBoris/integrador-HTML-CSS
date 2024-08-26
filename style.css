@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    scroll-behavior: smooth;
 }
 body{
     background-image: url(/imagenes/imagenfondo1.jpeg);

@@ -8,6 +8,7 @@
 body{
     background-image: url(/imagenes/imagenfondo1.jpeg);
 }
+
 /*NAVBAR*/
 .contenedor__navbar{
     background-color: yellow;
@@ -300,6 +301,11 @@ main{
 @media (max-width: 550px){
     .link__menu li{
         display: none;
+        border: 1px solid black;
+        width: 100%;
+        background-color: yellow;
+        text-align: center;
+        padding: 10px;
     }
     #menu__hamburguesa{
         display: none;
@@ -313,12 +319,11 @@ main{
         align-items: center;
         flex-direction: column;
         color: black;
-        background-color: yellow;
         position: absolute;
         width: 120px;
-        right: 0;
-        gap: 5px;
-        margin: 5px;
+        right: 10px;
+        top: 40px;
+        background-color: yellow;
     }
     .contenedor__redes{
         padding-bottom: 32px;
